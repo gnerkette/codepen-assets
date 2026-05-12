@@ -268,4 +268,5 @@ function getScale() {
   // 🌈 Background color
   tl.to("body", { backgroundColor: "#9682F6", duration: 0.5 }, 0);
   tl.to("body", { backgroundColor: "#000000", duration: 0.5 }, 0.5);
+  tl.to("#scrollArea", { backgroundColor: "#000000", opacity: 0.5 }, 0); // darkness falls
 })();
